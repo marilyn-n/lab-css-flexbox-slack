@@ -7,32 +7,31 @@ nav grey: #5b5e6d;
 */
 
 
-main, header{
-display: flex;
-flex:wrap;
+main, header {
+  display: flex;
+  flex:wrap;
 }
 
-nav{
+nav {
   display: flex;
   position:fixed;
   background-color: white;
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  
 }
 
- li{
-  transition: .75s;
-  background-color: #5b5e6d;
-  display: block;
-	position: relative;
-	overflow: hidden;
-	margin: 0;
-	transform-origin: 0 0;
-  height: 0;
-  padding: 0 1em;
- }
+ li {
+    transition: .75s;
+    background-color: #5b5e6d;
+    display: block;
+    position: relative;
+	  overflow: hidden;
+	  margin: 0;
+	  transform-origin: 0 0;
+    height: 0;
+    padding: 0 1em;
+  }
 
 nav > img {
   display: flex;
@@ -42,7 +41,7 @@ nav > img {
 
 }
 
-header > img, p{
+header > img, p {
   flex: wrap;
   height: 250vh;
   width: 350vw;
@@ -63,16 +62,16 @@ header > h1 {
   color:black;
   line-height: 16vh;
   margin: 200px;
- flex:wrap;
+  flex:wrap;
 }
 
-header > button{
+header > button {
   background-color: #192592;
   color:white;
 }
 
 
-div > img{
+div > img {
   width: 165vw;
   margin: 100px 0 100px;
   margin-left: 110vw;
@@ -80,16 +79,14 @@ div > img{
   border-width:1px;  
   border-bottom-color: #5b5e6d;
   padding-bottom: 25vh;
-
-
 }
 
-div > img:last-child{
+div > img:last-child {
   border:none;
 }
 
 
-button{
+button {
   border-color: #192592;
   background-color: white;
   padding: 10vh 10vw 10vh 10vw;
@@ -101,18 +98,18 @@ button{
   width: 300vw;
 }
 
-a{
+a {
   color: #192592;
 }
 
-header > p:last-child{
-color:#5b5e6d;
-margin-left: 90vw;
-font-size: 9vh;
-height: 30vh;
+header > p:last-child {
+  color:#5b5e6d;
+  margin-left: 90vw;
+  font-size: 9vh;
+  height: 30vh;
 }
 
-main > div p:nth-child(1){
+main > div p:nth-child(1) {
   align-items: center;
   font-size: 15vh;
   font-family: 'Times New Roman', Times, serif;
@@ -124,13 +121,13 @@ main > div p:nth-child(1){
   margin-top: 40vh;
 }
 
-main > div button:last-child{
+main > div button:last-child {
   background-color: #192592;
   color: white;
 }
 
 
-main > div h2{
+main > div h2 {
   width: 200%;
   display: flex;
   font-size: 17vh;
@@ -138,24 +135,21 @@ main > div h2{
   color:black;
   line-height: 16vh;
   margin-left: 40vw;
-  
- 
 }
 
-main > div p:nth-child(2){
-height: 50vh;
-flex-direction: row;
-justify-content: center;
+main > div p:nth-child(2) {
+  height: 50vh;
+  flex-direction: row;
+  justify-content: center;
 }
 
- main > div:first-child{
+ main > div:first-child {
   width: 400vw;
   background-color: #F4F3F4;
-
 }
 
 
- footer > div > img  {
+ footer > div > img {
   width: 200px;
   height: 200px;
   margin-left: 10vw;
@@ -163,13 +157,13 @@ justify-content: center;
 
 
  footer > div img:first-child {
- height: 80vh;
- width: 110vw;
- border: none;
+  height: 80vh;
+  width: 110vw;
+  border: none;
 }
 
 
-ul > li{
+ul > li {
   list-style: none;
   padding: 10px;
   font-size: 40px;
@@ -181,32 +175,33 @@ ul > li{
 }
 
 
-li:first-child{
+li:first-child {
   font-weight: bold;
   color: 2C303F;
 }
 
-footer > div span{
+footer > div span {
   font-size: 50px;
 }
 
 
-/* =========== */
+/* ===== MEDIA QUERYS ====== */
 
-@media screen and (min-width: 960px) {
-
-
-}
-
-/* =========== */
-
-
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1440px) {
 
 }
 
 
-/* =============== */
+@media screen and (max-width: 768px) {
+
+
+}
+
+
+@media screen and (max-width: 320px) {
+
+
+}
 
 
 
